@@ -2,23 +2,25 @@
 <manifest>
   <remote  name="uu"
            fetch="https://github.com/UBERTC/" />
+  <remote  name="sayeed99"
+           fetch="https://github.com/sayeed99/" />
   <default revision="master"
            remote="uu"
            sync-j="4"
            sync-c="true"
            sync-f="true" />
 
-  <project path="manifest" name="uber-manifest" />
-  <project path="binutils/binutils-uber" name="binutils" revision="2.25" />
+  <project path="manifest" name="uber-manifest" remote="sayeed99" />
+  <project path="binutils/binutils-uber" name="binutils" revision="2.26" />
   <project path="build" name="uber-build" />
   <project path="cloog/cloog-uber" name="cloog" revision="uber" />
   <project path="cloog/cloog-uber/isl" name="isl" revision="uber" />
   <project path="cloog/cloog-uber/osl" name="osl" revision="uber" />
   <project path="isl/isl-uber" name="isl" revision="uber" />
-  <project path="gcc/gcc-UBER" name="GCC-UBER" revision="uber-4.9" />
+  <project path="gcc/gcc-UBER" name="GCC-UBER" revision="uber-5.x" />
   <project path="gmp/gmp-uber" name="gmp" revision="uber" />
   <project path="mpc/mpc-uber" name="mpc" revision="uber" />
   <project path="mpfr/mpfr-uber" name="mpfr" revision="uber" />
   <project path="scripts" name="uber-scripts" />
-  <project path="sysroot" name="sysroot" revision="gcc-4.9" />
+  <project path="sysroot" name="sysroot" revision="gcc-5.x" />
 </manifest>
