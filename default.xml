@@ -22,5 +22,5 @@
   <project path="mpc/mpc-uber" name="mpc" revision="uber" />
   <project path="mpfr/mpfr-uber" name="mpfr" revision="uber" />
   <project path="scripts" name="uber-scripts" />
-  <project path="sysroot" name="sysroot" revision="gcc-5.x" />
+  <project path="sysroot" name="sysroot" revision="gcc-5.x" remote="sayeed99" />
 </manifest>
